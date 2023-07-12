@@ -3,14 +3,20 @@
     height: 30px;
     border: none;
     border-radius: 5px;
-    background-color: #c70101;
-    color: #ffffff;
+    background-color: $btn_bg_color;
+    color: $btn_color;
     font-size: 12px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     &:hover {
-        background-color: #c7010188;
-        color: #ffffff94;
+        background-color: $btn_hv_bg_color;
+        color: $btn_hv_color;
+    }
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
     }
 }
