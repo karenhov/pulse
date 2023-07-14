@@ -23,9 +23,12 @@ h2 {
         font-size: 18px;
         font-weight: 700;
     }
-    span {
+    a {
         color: #ff0000;
         text-decoration: underline;
+        &:hover {
+            color: #ff000068;
+        }
     }
 }
 
