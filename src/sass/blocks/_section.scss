@@ -1,7 +1,3 @@
-section {
-    width: 925px;
-    margin: 0 auto;
-}
 .paragrof {
     padding-top: 70px;
     color: #0d0d0d;
@@ -9,12 +5,27 @@ section {
     font-weight: 700;
     text-align: center;
 }
-.main_icons {
+.main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     margin-top: 65px;
     &__icon {
-        display: block;
+        padding-bottom: 27px;
+        text-align: center;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 400;
+        width: 239px;
+    }
+    &__head {
+        padding-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    span {
+        color: #ff0000;
+        text-decoration: underline;
     }
 }
+
