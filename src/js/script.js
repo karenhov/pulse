@@ -15,4 +15,4 @@ function use(x,y) {
     let a=x*2+y*2
     console.log(a)
 }
-use(0,0);
+use(1,0);
