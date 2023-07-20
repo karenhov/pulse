@@ -10,7 +10,6 @@
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    speed: 1200,
     autoplay: false,
     controls: false,
     nav: false
