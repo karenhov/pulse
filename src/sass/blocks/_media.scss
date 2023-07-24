@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+    .carousel .prev {
+        left: -35px;
+    }
+    .carousel .next {
+        right: -35px;
+    }
+    .catalog-item {
+        width: 287px;
+    }
+}
