@@ -231,13 +231,9 @@
         .container {
             max-width: 430px;
         }
-        &__header {
-            font-size: 25px;
-            &__official span {
-
-                font-size: 11px;
-            }
-        }
+    }
+    .promo .header__official span {
+        font-size: 11px;
     }
     .catalog {
         .container {
@@ -270,4 +266,50 @@
         }
     }
 }
+@media (max-width:550px) {
+    .section {
+        .container {
+            max-width: 430px;
+        }
+        .main__icon {
+            font-size: 10px;
+        }
+        .main__head {
+            font-size: 12px;
+        }
+    }
+    .carousel .tns-item img {
+        width: 400px;
+        height: 300px;
+    }
+    .catalog {
+        .container {
+            max-width: 400px;
+        }
+        &__tab {
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        max-width: 400px;
+        &__item_list .comment {
+            font-size: 12px;
+        }
+    }
+    .footer__info {
+        width: 300px;
+        height: 230px;
+    }
+    .footer__addr {
+        font-size: 12px;
+    }
+    .footer__phone {
+        font-size: 14px;
+    }
+    .footer__social-item {
+        width: 30px;
+        height: 30px;
+    }
+}
+
     
