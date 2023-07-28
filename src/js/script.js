@@ -51,4 +51,33 @@
             $('.overlay, #order').fadeIn('slow');
           })
         });
+
+        //validate
+        function valideForms(form){
+          $(form).validate({
+            rules: {
+  
+              name: "required",
+              phone: "required",
+              email:  {
+                required: true,
+                minlenght: 10,
+                email: true
+              }
+              },
+              messages: {
+                name: "Please specify your name",
+                phone: "Please specify your phone number",
+                email: {
+                  required: "We need your email address to contact you",
+                  email: "Your email address must be in the format of name@domain.com"
+                }
+              }
+          
+            });
+        };
+        valideForms('#consultation-form');
+        valideForms('#consultation form');
+        valideForms('#order form');
+        $('input[name=phone]').mask("+(374)(9999)-(9999)");
   });
