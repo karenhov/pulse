@@ -142,14 +142,16 @@
                 font-weight: 300;
                 text-align: left;
                 margin-bottom: 20px;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $btn_bg_color;
-                    left: -14px;
-                    top: 7px;
+                &:not(:last-child) {
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $btn_bg_color;
+                        left: -14px;
+                        top: 7px;
+                    }
                 }
             }
             &__back {
